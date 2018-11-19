@@ -24,3 +24,4 @@ end
 
 puts "Welcome to Tic Tac Toe!"
 puts "How many players will be playing today?"
+player_select
