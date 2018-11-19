@@ -8,9 +8,9 @@ if number_of_players == "1" then
   player_a = gets.strip
   puts "Would you like to be X or O"
   player_token = gets.strip
-  if player_token == "X" then computer_token = "O"
-  else computer_token = "X"
-  end
+    if player_token == "X" then computer_token = "O"
+    else computer_token = "X"
+    end
   if player_a == "Human" then game = Game.new(Players::Human.new(player_token),Players::Computer.new(computer_token))
   else game = Game.new(Players::Computer.new(computer_token),Players::Human.new(player_token))
   end
