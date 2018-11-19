@@ -1,10 +1,11 @@
-e#!/usr/bin/env ruby
+#!/usr/bin/env ruby
 
 require_relative '../config/environment'
 
 puts "Welcome to Tic Tac Toe!"
 puts "How many players will be playing today?"
 player_select
+
 def player_select
   number_of_players = gets.strip
 if number_of_players == "1" then
