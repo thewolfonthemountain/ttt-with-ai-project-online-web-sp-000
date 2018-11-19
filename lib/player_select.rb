@@ -13,7 +13,8 @@ if number_of_players == "1" then
   end
 elsif number_of_players == "0" then game = Game.new(Players::Computer.new("X"),Players::Computer.new("O"))
 elsif number_of_players == "2" then game = Game.new(Players::Human.new("X"),Players::Human.new("O"))
-else "Please select a value between 0 and 2"
+else "Please learn how the game of Tic-tac-toe is played and try again later"
   player_select
 end
+game.play
 end
