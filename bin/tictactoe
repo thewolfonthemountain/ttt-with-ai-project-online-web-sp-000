@@ -25,3 +25,4 @@ elsif number_of_players == "2" then game = Game.new(Players::Human.new("X"),Play
 else "Please select a value between 0 and 2"
   player_select
 end
+end
