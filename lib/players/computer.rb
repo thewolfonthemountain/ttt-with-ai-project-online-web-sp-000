@@ -1,8 +1,6 @@
 module Players
 class Computer < Player
 
-CORNER_INPUTS = ["1","3","7","9"]
-MIDDLE_INPTUS = ["2","4","6","8"]
   def move(board)
     if board.position("5") == " " then "5"
     elsif board.position("1") == " " then "1"
@@ -14,6 +12,7 @@ MIDDLE_INPTUS = ["2","4","6","8"]
     elsif board.position("6") == " " then "6"
     else "8"
     end
+  end
 
 end
 end
