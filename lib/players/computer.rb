@@ -3,11 +3,8 @@ class Computer < Player
 
   def move(board)
     if board.position("5") == " " then "5"
-    else board.cells.each_with_index do |cell, index|
-      if cell == " " then index+1
+    else [*1..9].sample.to_i
       end
-    end
-   end
   end
 
 
