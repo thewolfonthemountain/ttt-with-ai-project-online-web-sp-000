@@ -6,6 +6,7 @@ class Computer < Player
     else [*1..9].each do
       end
   end
+end
 
 
 end
